@@ -1,6 +1,13 @@
+.body {
+  font-family: Roboto;
+  background-color: #ffffff;
+}
 .header-box {
+  display: flex;
   width: 1440px;
   height: 72px;
+  align-items: center;
+  flex-shrink: 0;
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
   box-sizing: border-box;
@@ -8,16 +15,17 @@
 
 .header {
   color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  margin-left: 156px;
   margin-top: 24px;
   margin-bottom: 24px;
+  margin-left: 156px;
   box-sizing: border-box;
+  text-decoration: none;
 }
 .header-part {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -32,12 +40,96 @@
   box-sizing: border-box;
 }
 
-.header-box-list-first {
-  color: var(--NAVY-BLUE, #2e2f42);
+.link-first {
+  color: #2e2f42;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 24px;
   letter-spacing: 0.32px;
+  text-decoration: none;
+  margin-left: 76px;
+}
+.link-second {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+  margin-left: 40px;
+}
+.link-third {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.contact-mail {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+  padding-left: 270px;
+  padding-right: 40px;
+}
+
+.contact-number {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+  margin-right: 156px;
+}
+
+.content-head {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+}
+
+.content-header {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
+  width: 456px;
+  text-align: center;
+  padding-top: 188px;
+  margin-top: 0;
+  margin-left: 472px;
+}
+
+.button {
+  box-shadow: 0, 4, 4 rgba(0, 0, 0, 0.15);
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  background-color: #4d5ae5;
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+  margin-left: 636px;
+  margin-bottom: 188px;
 }
