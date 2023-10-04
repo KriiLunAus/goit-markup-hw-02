@@ -178,3 +178,57 @@
   width: 264px;
   height: 72px;
 }
+
+.our-team {
+  width: 1440px;
+  height: 732px;
+  background: #f4f4fd;
+}
+.our-team-head {
+  box-sizing: border-box;
+  text-align: center;
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  padding-top: 120px;
+  padding-bottom: 72px;
+}
+
+.our-team-ul {
+  text-align: center;
+}
+
+.our-team-li {
+  display: inline-block;
+  margin-right: 24px;
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 32px;
+}
+
+.our-team-li-head {
+  color: #2e2f42;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  margin-top: 32px;
+}
+.our-team-li-paragraph {
+  color: #434455;
+  text-align: center;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
