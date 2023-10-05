@@ -135,8 +135,8 @@
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.15;
-  letter-spacing: 0, 04em;
+  line-height: 1.5;
+  letter-spacing: 0,04em;
   display: inline-flex;
   padding: 16px 32px;
   align-items: flex-start;
@@ -148,7 +148,7 @@
   margin-bottom: 188px;
   cursor: pointer;
 }
-button-hover {
+.button:hover {
   background-color: #404bbf;
 }
 
