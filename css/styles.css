@@ -143,6 +143,7 @@
 
 .hidden {
   display: none;
+  line-height: 1.11;
 }
 
 .content-features {
@@ -273,6 +274,7 @@
   margin-top: 24px;
   margin-bottom: 24px;
   box-sizing: border-box;
+  line-height: 1.17;
 }
 
 .footer-paragraph {
