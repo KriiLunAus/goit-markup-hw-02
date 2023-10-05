@@ -1,5 +1,5 @@
 .body {
-  font-family: Roboto,sans-serif;
+  font-family: Roboto, sans-serif;
   background-color: #ffffff;
   color: #434455;
 }
@@ -13,12 +13,12 @@
   background: var(--WHITE, #fff);
 }
 
-.head-li{
+.head-li {
   display: inline-block;
-  line-height: 1.17
+  line-height: 1.17;
 }
 
-.address-li{
+.address-li {
   display: inline-block;
 }
 
@@ -91,7 +91,7 @@
   letter-spacing: 0.32px;
   text-decoration: none;
   padding-right: 40px;
-  padding-left: 190px
+  padding-left: 190px;
 }
 
 .contact-number {
@@ -259,6 +259,7 @@
   text-transform: uppercase;
   box-sizing: border-box;
   text-decoration: none;
+  line-height: 1.17;
 }
 
 .footer-part {
