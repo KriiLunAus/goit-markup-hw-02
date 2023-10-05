@@ -116,7 +116,7 @@
   color: #fff;
   text-align: center;
   font-family: Roboto;
-  font-size: 50px;
+  font-size: 56px;
   font-style: normal;
   font-weight: 700;
   line-height: 60px;
@@ -126,10 +126,17 @@
   padding-top: 188px;
   margin-top: 0;
   margin-left: 472px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .button {
   box-shadow: 0, 4, 4 rgba(0, 0, 0, 0.15);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.15;
+  letter-spacing: 0, 04em;
   display: inline-flex;
   padding: 16px 32px;
   align-items: flex-start;
@@ -139,6 +146,10 @@
   border-radius: 4px;
   margin-left: 636px;
   margin-bottom: 188px;
+  cursor: pointer;
+}
+button-hover {
+  background-color: #404bbf;
 }
 
 .hidden {
