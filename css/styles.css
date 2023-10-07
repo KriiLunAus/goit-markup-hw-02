@@ -5,8 +5,6 @@
 }
 .header-box {
   display: flex;
-  width: 1440px;
-  height: 72px;
   align-items: center;
   flex-shrink: 0;
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
@@ -96,8 +94,6 @@
 
 .content-head {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
 }
 
 .content-header {
@@ -147,7 +143,6 @@
 }
 
 .content-features {
-  width: 1440px;
   padding-left: 156px;
   padding-top: 120px;
   padding-right: 156px;
@@ -184,8 +179,6 @@
 }
 
 .our-team {
-  width: 1440px;
-  height: 732px;
   background: #f4f4fd;
 }
 .our-team-head {
@@ -228,10 +221,6 @@
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.32px;
-}
-
-.section-four {
-  width: 1440px;
 }
 
 .section-four-header {
@@ -287,8 +276,6 @@
 
 .footer-section {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 312px;
   padding-top: 102px;
 }
 
