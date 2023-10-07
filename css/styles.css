@@ -34,7 +34,7 @@
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-top: 24px;
@@ -120,18 +120,14 @@
 
 .button {
   font-family: Roboto, sans-serif;
-  box-shadow: 0, 4, 4 rgba(0, 0, 0, 0.15);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   display: inline-flex;
   padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
   background-color: #4d5ae5;
   color: rgb(255, 255, 255);
-  border-radius: 4px;
   margin-left: 636px;
   margin-right: 636px;
   margin-bottom: 188px;
