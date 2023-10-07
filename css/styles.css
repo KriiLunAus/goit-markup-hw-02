@@ -19,7 +19,7 @@
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
@@ -33,7 +33,7 @@
   color: var(--NAVY-BLUE, #2e2f42);
   font-family: Raleway;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
@@ -41,7 +41,7 @@
   margin-bottom: 24px;
 }
 
-.header-element {
+.header-head {
   display: inline-flex;
   line-height: 1.17;
   text-align: center;
@@ -80,7 +80,7 @@
   color: #404bbf;
 }
 
-.header-element-link {
+.header-head-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 600;
