@@ -20,7 +20,7 @@
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-top: 24px;
@@ -41,7 +41,7 @@
   margin-bottom: 24px;
 }
 
-.header-head {
+.header-element {
   display: inline-flex;
   line-height: 1.17;
   text-align: center;
@@ -80,7 +80,7 @@
   color: #404bbf;
 }
 
-.header-head-link {
+.header-element-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 600;
