@@ -3,6 +3,9 @@
   background-color: #ffffff;
   color: #434455;
 }
+.header-navigation {
+  display: inline-flex;
+}
 .header-box {
   display: flex;
   align-items: center;
@@ -39,15 +42,17 @@
 }
 
 .header-head {
-  display: inline-block;
+  display: inline-flex;
   line-height: 1.17;
+  text-align: center;
+  margin-top: 5px;
 }
 
 .header-address {
   display: inline-flex;
   text-align: right;
   text-decoration: none;
-  margin-left: 580px;
+  margin-left: 800px;
 }
 
 .header-addres-element {
