@@ -117,6 +117,7 @@
 }
 
 .button {
+  font-family: Roboto, sans-serif;
   box-shadow: 0, 4, 4 rgba(0, 0, 0, 0.15);
   font-weight: 500;
   font-size: 16px;
@@ -215,7 +216,6 @@
 .our-team-li-head {
   color: #2e2f42;
   text-align: center;
-  font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
