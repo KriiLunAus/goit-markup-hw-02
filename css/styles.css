@@ -11,16 +11,8 @@
   background: var(--WHITE, #fff);
 }
 
-.head-li {
+.header-logo {
   display: inline-block;
-  line-height: 1.17;
-}
-
-.address-li {
-  display: inline-block;
-}
-
-.header {
   color: var(--IRIS, #4d5ae5);
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -33,7 +25,8 @@
   margin-left: 156px;
   text-decoration: none;
 }
-.header-part {
+
+.header-logo-part {
   color: var(--NAVY-BLUE, #2e2f42);
   font-family: Raleway;
   font-size: 18px;
@@ -43,6 +36,32 @@
   text-transform: uppercase;
   margin-top: 24px;
   margin-bottom: 24px;
+}
+
+.header-head {
+  display: inline-block;
+  line-height: 1.17;
+}
+
+.header-address {
+  display: inline-flex;
+  text-align: right;
+  text-decoration: none;
+  margin-left: 580px;
+}
+
+.header-addres-element {
+  text-decoration: none;
+  margin-right: 40px;
+  list-style-type: none;
+}
+
+.header-contacts {
+  color: #434455;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  text-decoration: none;
 }
 
 .link-first {
@@ -73,41 +92,22 @@
   margin-left: 40px;
 }
 
-.contact-mail {
-  color: #434455;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  text-decoration: none;
-  padding-right: 40px;
-  padding-left: 190px;
-}
-
-.contact-number {
-  color: #434455;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  text-decoration: none;
-  margin-right: 156px;
-}
-
 .content-head {
   background-color: #2e2f42;
+  text-align: center;
 }
 
 .content-header {
-  color: #fff;
   text-align: center;
+  color: #fff;
   font-size: 56px;
   font-weight: 700;
   line-height: 60px;
   letter-spacing: 1.12px;
-  width: 456px;
-  text-align: center;
   padding-top: 188px;
   margin-top: 0;
   margin-left: 472px;
+  margin-right: 472px;
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
@@ -127,6 +127,7 @@
   color: rgb(255, 255, 255);
   border-radius: 4px;
   margin-left: 636px;
+  margin-right: 636px;
   margin-bottom: 188px;
   cursor: pointer;
 }
@@ -148,14 +149,16 @@
   padding-right: 156px;
   padding-bottom: 120px;
 }
-.ul {
+.section-two {
   padding-left: 0;
+  text-align: center;
 }
 
 .section-two-list {
   list-style: none;
   display: inline-block;
   margin-right: 24px;
+  text-align: left;
 }
 
 .section-two-list-header {
@@ -204,6 +207,7 @@
   margin-right: 24px;
   background-color: rgb(255, 255, 255);
   padding-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .our-team-li-head {
@@ -314,4 +318,5 @@
   letter-spacing: 0.32px;
   width: 264px;
   margin-left: 156px;
+  padding-bottom: 100px;
 }
