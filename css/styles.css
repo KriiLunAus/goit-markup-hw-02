@@ -70,6 +70,7 @@
   line-height: 24px;
   letter-spacing: 0.32px;
   text-decoration: none;
+  transition: 0.15s;
 }
 
 .header-contacts:hover {
