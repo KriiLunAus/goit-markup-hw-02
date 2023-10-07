@@ -16,11 +16,11 @@
 
 .header-logo {
   display: inline-block;
-  color: var(--IRIS, #4d5ae5);
+  color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-top: 24px;
@@ -48,11 +48,14 @@
   margin-top: 5px;
 }
 
+.address {
+  font-style: normal;
+}
 .header-address {
   display: inline-flex;
   text-align: right;
   text-decoration: none;
-  margin-left: 800px;
+  margin-left: 700px;
 }
 
 .header-addres-element {
@@ -69,34 +72,30 @@
   text-decoration: none;
 }
 
-.link-first {
-  color: #2e2f42;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  text-decoration: none;
-  margin-left: 76px;
+.header-contacts:hover {
+  color: #404bbf;
 }
-.link-second {
-  color: #2e2f42;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  text-decoration: none;
-  margin-left: 40px;
-}
-.link-third {
-  color: #2e2f42;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  text-decoration: none;
-  margin-left: 40px;
+.header-contacts:focus {
+  color: #404bbf;
 }
 
+.header-head-link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+  margin-left: 40px;
+  transition: 0.15s;
+}
+
+.header-head-link:hover {
+  color: #404bbf;
+}
+.header-head-link:focus {
+  color: #404bbf;
+}
 .content-head {
   background-color: #2e2f42;
   text-align: center;
