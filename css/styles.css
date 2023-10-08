@@ -73,13 +73,6 @@
   transition: 0.15s;
 }
 
-.header-contacts:hover {
-  color: #404bbf;
-}
-.header-contacts:focus {
-  color: #404bbf;
-}
-
 .header-head-link {
   color: #2e2f42;
   font-size: 16px;
@@ -90,11 +83,9 @@
   margin-left: 40px;
   transition: 0.15s;
 }
-
-.header-head-link:hover {
-  color: #404bbf;
-}
-
+.header-contacts:hover,
+.header-contacts:focus,
+.header-head-link:hover,
 .header-head-link:focus {
   color: #404bbf;
 }
