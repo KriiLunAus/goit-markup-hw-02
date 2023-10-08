@@ -91,8 +91,22 @@
   transition: 0.15s;
 }
 
-.header-head-link:hover,
-:focus {
+.header-head-link-first {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+  margin-left: 40px;
+  transition: 0.15s;
+}
+
+.header-head-link-first:hover :focus {
+  color: #404bbf;
+}
+
+.header-head-link-first:focus {
   color: #404bbf;
 }
 
