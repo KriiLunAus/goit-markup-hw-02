@@ -70,7 +70,6 @@
   line-height: 24px;
   letter-spacing: 0.32px;
   text-decoration: none;
-  transition: 0.15s;
 }
 
 .header-head-link {
@@ -81,7 +80,6 @@
   letter-spacing: 0.32px;
   text-decoration: none;
   margin-left: 40px;
-  transition: 0.15s;
 }
 
 .contacts-link:hover,
