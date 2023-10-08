@@ -97,6 +97,17 @@
 .header-head-link:focus {
   color: #404bbf;
 }
+
+a {
+  text-decoration-line: none;
+  color: var(--color-slate);
+}
+a:focus {
+  color: var(--color-ocean);
+}
+a:hover {
+  color: var(--color-ocean);
+}
 .content-head {
   background-color: #2e2f42;
   text-align: center;
