@@ -48,23 +48,23 @@
   margin-top: 5px;
 }
 
-.address {
+.contacts {
   font-style: normal;
 }
-.header-address {
+.contacts-list {
   display: inline-flex;
   text-align: right;
   text-decoration: none;
   margin-left: 700px;
 }
 
-.header-addres-element {
+.contacts-list-element {
   text-decoration: none;
   margin-right: 40px;
   list-style-type: none;
 }
 
-.header-contacts {
+.contacts-link {
   color: #434455;
   font-size: 16px;
   line-height: 24px;
@@ -83,8 +83,9 @@
   margin-left: 40px;
   transition: 0.15s;
 }
-.header-contacts:hover,
-.header-contacts:focus,
+
+.contacts-link:hover,
+.contacts-link:focus,
 .header-head-link:hover,
 .header-head-link:focus {
   color: #404bbf;
