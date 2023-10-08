@@ -18,7 +18,6 @@
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  margin-top: 24px;
   margin-bottom: 24px;
   margin-left: 156px;
   text-decoration: none;
@@ -32,14 +31,12 @@
   line-height: 1.17px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  margin-top: 24px;
   margin-bottom: 24px;
 }
 
 .header-head {
   line-height: 1.17;
   text-align: center;
-  margin-top: 5px;
 }
 
 .contacts {
@@ -48,7 +45,6 @@
 .contacts-list {
   text-align: right;
   text-decoration: none;
-  margin-left: 700px;
 }
 
 .contacts-list-element {
@@ -72,7 +68,6 @@
   line-height: 24px;
   letter-spacing: 0.32px;
   text-decoration: none;
-  margin-left: 40px;
 }
 
 .contacts-link:hover,
@@ -84,7 +79,6 @@
 
 .content-head {
   background-color: #2e2f42;
-  text-align: center;
   font-weight: 500;
 }
 
@@ -95,8 +89,6 @@
   font-weight: 700;
   line-height: 60px;
   letter-spacing: 1.12px;
-  margin-top: 0;
-  margin-left: 472px;
   margin-right: 472px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -110,7 +102,6 @@
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: rgb(255, 255, 255);
-  margin-left: 636px;
   margin-right: 636px;
   margin-bottom: 188px;
   cursor: pointer;
@@ -129,7 +120,6 @@
 .section-two-list {
   list-style: none;
   margin-right: 24px;
-  text-align: left;
 }
 
 .section-two-list-header {
@@ -138,7 +128,6 @@
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
-  margin-top: 0;
 }
 
 .section-two-list-paragraph {
@@ -146,15 +135,12 @@
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.32px;
-  width: 264px;
-  height: 72px;
 }
 
 .our-team {
   background: #f4f4fd;
 }
 .our-team-head {
-  text-align: center;
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
@@ -162,10 +148,6 @@
   letter-spacing: 0.72px;
   text-transform: capitalize;
   line-height: 1.11;
-}
-
-.our-team-ul {
-  text-align: center;
 }
 
 .our-team-li {
@@ -176,12 +158,10 @@
 
 .our-team-li-head {
   color: #2e2f42;
-  text-align: center;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
-  margin-top: 32px;
 }
 .our-team-li-paragraph {
   color: #434455;
@@ -199,13 +179,11 @@
   line-height: 40px;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  margin-top: 0;
   margin-bottom: 72px;
 }
 
 .section-four-list {
   margin-bottom: 0px;
-  margin-top: 0;
 }
 
 .section-four-list-element {
@@ -222,7 +200,6 @@
   line-height: 24px;
   letter-spacing: 0.4px;
   margin-bottom: 0;
-  margin-top: 0;
 }
 .section-four-paragraph {
   color: #434455;
@@ -243,7 +220,6 @@
   font-weight: 700;
   line-height: 21px;
   letter-spacing: 0.54px;
-  margin-left: 156px;
   text-transform: uppercase;
   text-decoration: none;
   line-height: 1.17;
@@ -257,7 +233,6 @@
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  margin-top: 24px;
   margin-bottom: 24px;
   line-height: 1.17;
 }
@@ -267,6 +242,4 @@
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.32px;
-  width: 264px;
-  margin-left: 156px;
 }
